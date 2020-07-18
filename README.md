@@ -18,7 +18,19 @@ SDARアルゴリズムを使った、楽曲のリアルタイム曲調変化点�
     ```
 
 # Usage
-工事中
+### マイク入力（リアルタイム）で動作させる場合
+1. settings.yamlのdev_idとchannelを適切に設定する
+2. ```$ python app.py``` を実行する
+
+### オーディオファイルで動作させる場合
+1. ```$ python app.py --file {オーディオファイルのパス}``` を実行する
+
+
+
+
+# Task
+- change_finderを用いる場合、パラメータの調整を適切にする必要がある
+- 検証した楽曲数が少ないため、より多くの楽曲で検証する必要がある
 
 # License
 Copyright © 2020 T_Sumida Distributed under the MIT License.
