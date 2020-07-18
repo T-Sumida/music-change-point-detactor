@@ -1,0 +1,13 @@
+change_finder:
+    r: 0.1
+    order: 1
+    smooth: 3
+audio:
+    dev_id: 1
+    chennel: 1
+    sr: 44100
+    block_size: 11025
+model:
+    buffer_audio_length: 44100
+    frame_buf_num: 12
+    thr: 7.5
